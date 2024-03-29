@@ -51,7 +51,7 @@ const ReserveMainSection = (props) => {
             axios.get('api/v1/company/operation/?companyName=The Little Eatery')
             .then((response) => {
                 data = response.data;
-
+                
                 Object.keys(data).map( (d) => {
                     
                     if (d.toString() === daysOfWeekAsString[datePicked.day()]){
@@ -106,9 +106,12 @@ const ReserveMainSection = (props) => {
     
                     return 0;
                 });
+                
+                if (startTimeOptions.length > 0) {
+                    startTimeOptions[startTimeOptions.length - 1].isDisabled = true;
+                    startTimeOptions[startTimeOptions.length - 2].isDisabled = true;
+                }
 
-                startTimeOptions[startTimeOptions.length - 1].isDisabled = true;
-                startTimeOptions[startTimeOptions.length - 2].isDisabled = true;
                 setStartTime(startTimeOptions[0]);
                 setEndTime(endTimeOptions[2]);
                 setStartTimeOptions(startTimeOptions);
