@@ -1,7 +1,8 @@
 .Home{
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    max-height: 100vh;
+}
+
+.Home div{
+    width:100%;
+    height:100%;
 }
