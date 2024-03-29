@@ -8,7 +8,7 @@ import { PersistGate } from 'redux-persist/integration/react';
 import { persistor, store } from './store/store'
 import axios from 'axios';
 
-axios.defaults.baseURL = 'https://redesigned-doodle-6q7rxvv6rw625vvv-5000.app.github.dev/'
+axios.defaults.baseURL = 'https://solid-spork-rq5ppq7957qfxp7r-5000.app.github.dev/'
 
 ReactDOM.render(
   <React.StrictMode>
