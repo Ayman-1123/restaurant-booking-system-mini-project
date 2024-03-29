@@ -2,8 +2,8 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const companySchema = Schema({
-  name: { type: String, default: null},
-  operation: { type: Object, default: null },
+  name: { type: String, default: null },
+  operation: { type: Object, default: {} },
   tables: { type: Object, default: {} }
 });
 
