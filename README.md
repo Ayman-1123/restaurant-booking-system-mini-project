@@ -166,6 +166,8 @@ client
 
 # Status and Bugs
 * Table Reserations for some dates and times might fail. Further debugging needed.
+* Name needs to updated in model and userroutes to show names
+* Home module yet to be rendered
 * Multiple sign ups with same username is allowed as of now. Backend needs to be adjusted to handle that.
 * UI Design needs improvement.
 * [Transformer doesn't work on Brave with Shields enabled #1111](https://github.com/konvajs/konva/issues/1111).
