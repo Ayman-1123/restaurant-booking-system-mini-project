@@ -1,0 +1,9 @@
+.Container{
+    padding: 1.4em;
+    background: white;
+    display: grid;
+    height: 100%;
+    grid-template-columns: repeat(2, 2fr);
+    align-items: center;
+    justify-items: center;
+}

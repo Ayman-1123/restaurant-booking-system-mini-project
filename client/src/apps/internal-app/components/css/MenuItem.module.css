@@ -1,0 +1,32 @@
+.item-width{
+  width: 90%;
+}
+.menu-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu-item img {
+    flex-shrink: 0;
+    width: 80px;
+  }
+  
+  .menu-item-details {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 4px; /* Equivalent to ps-4 */
+  }
+  
+  .menu-item-details h5 {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #dee2e6; /* Equivalent to border-bottom pb-2 */
+    padding-bottom: 2px;
+  }
+  
+  .menu-item-details small {
+    font-style: italic;
+  }
+  
