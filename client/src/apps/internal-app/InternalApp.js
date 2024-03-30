@@ -19,7 +19,6 @@ const InternalApp = () => {
         <Routes>
           <Route path='*' element={<Navigate replace to='/home'/>}/>
           <Route path='/home' element={<Home/>}/>
-          <Route path='/about' element={<About/>}/>
           <Route path='/menu' element={<Menu/>}/>
           <Route path='/settings' element={<Settings/>}/>
           <Route path='/booking'>

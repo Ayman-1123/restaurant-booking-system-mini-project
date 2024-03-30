@@ -3,10 +3,7 @@ import styles from './css/NavBar.module.css'
 import avatar from 'public/sidebar/avatar.png'
 import logo from 'public/sidebar/logo.png'
 import { FaHome } from 'react-icons/fa';
-import { LiaServicestack } from "react-icons/lia"
-import { MdOutlineMenuBook } from "react-icons/md";
 import { MdRestaurant } from 'react-icons/md'
-import { IoIosPeople } from "react-icons/io";
 import { IoSettings } from 'react-icons/io5'
 import CompanyInfo from '../components/CompanyInfo';
 import NavBarItem from '../components/NavBarItem';
@@ -30,19 +27,7 @@ const NavBar = () => {
           ItemIcon={FaHome}
           linkTo='/home'
           text='Home'
-        /><NavBarItem
-          ItemIcon={IoIosPeople}
-          linkTo='/about'
-          text='About'
-        /><NavBarItem
-          ItemIcon={MdOutlineMenuBook}
-          linkTo='/Menu'
-          text='Menu'
-        /><NavBarItem
-        ItemIcon={LiaServicestack}
-        linkTo='/strength'
-        text='Services'
-      />
+        />
         <NavBarItem
           ItemIcon={MdRestaurant}
           linkTo='/booking'
