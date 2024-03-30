@@ -1,15 +1,5 @@
 import React from 'react'
 import styles from './css/Menu.module.css'
-<<<<<<< HEAD
-
-const Menu = () => {
-
-  return (
-    <div className={styles.Menu}>
-       <div>Menu</div>
-    </div>
-  )
-=======
 import MenuItem from '../components/MenuItem'
 import MenuImg1 from '../../../assets/Menu-Items/menu-1.jpg'
 import MenuImg2 from '../../../assets/Menu-Items/menu-2.jpg'
@@ -93,7 +83,6 @@ const Menu = () => {
             </div>
         </div>
     )
->>>>>>> de17b45 (Added Menu Page , Home Page)
 }
 
 export default Menu
